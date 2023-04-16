@@ -1,2 +1,0 @@
-Hola Bienvenido a Visual Studio Code.
-Mi primer archivo para Github
