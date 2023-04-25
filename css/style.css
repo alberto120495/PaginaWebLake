@@ -1,7 +1,55 @@
 body{
-background-color: rgba(209, 129, 247, 0.637);
-background-image: url(../img/fondo.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-color: #f1f1f1;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h1{
+    color: rgb(250, 179, 179);
+}
+
+h2{
+    color: rgba(255, 239, 92, 0.89);
+}
+
+h3{
+    color: rgb(174, 255, 172);
+}
+h4{
+    color: rgb(173, 245, 255);
+}
+h5{
+    color: rgb(255, 187, 215);
+}
+h6{
+    color: rgb(255, 217, 187);
+}
+
+
+.primer-parrafo{
+    color: white;
+    font-size: 50px;
+    font-family: "Arial";
+    font-weight: 700;
+}
+
+.segundo-parrafo{
+    color: white;
+    font-size: 40px;
+    font-family:cursive;
+    font-weight: 800;
+}
+
+.galeria{
+    display:flex;
+    border: 2px solid white;
+    overflow-x: scroll;
+}
+
+.galeria img{
+    width: 350px;
+    height: 350px
 }
