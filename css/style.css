@@ -7,6 +7,25 @@ body{
     color: white;
 }
 
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio h1{
+    font-size: 100px;
+    font-family: "Arial";
+    font-weight: 700;
+}
+
+.inicio img{
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+
+
 h1{
     color: rgb(250, 179, 179);
 }
@@ -45,7 +64,8 @@ h6{
 
 .galeria{
     display:flex;
-    border: 2px solid white;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #0f0066 0%, #ce0a0a 100%) 1;
     overflow-x: scroll;
 }
 
@@ -53,3 +73,7 @@ h6{
     width: 350px;
     height: 350px
 }
+
+
+
+
